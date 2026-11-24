@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adalvani Pinheiro de Carvalho · Candidata à Direção · Escola Menino Jesus</title>
+<meta name="description" content="Conheça a trajetória, as realizações e as propostas de Adalvani para a direção da Escola de Educação Infantil Menino Jesus. Eleição: 30 de novembro de 2026.">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--red:#B3262D;--red-d:#8f1d23;--beige:#F3E9D8;--cream:#FBF6EC;--brown:#4A3B32;--sand:#E6D5B8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Poppins,system-ui,sans-serif;color:var(--brown);background:var(--cream);line-height:1.6}
+h1,h2,h3{font-family:Lora,Georgia,serif;margin:0}
+.wrap{max-width:1040px;margin:auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:var(--red);color:#fff}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 20px}
+.brand{display:flex;align-items:center;gap:10px;font-family:Lora,serif;font-weight:700}
+.logo{width:44px;height:44px;border-radius:50%;border:2px dashed #fff9;display:grid;place-items:center;font-size:10px;overflow:hidden;flex:none}
+.logo img,.photo img{width:100%;height:100%;object-fit:cover}
+nav a{color:#fff;text-decoration:none;font-size:14px;margin-left:16px;opacity:.9}
+nav a:hover{opacity:1;text-decoration:underline}
+@media(max-width:700px){nav{display:none}}
+section{padding:64px 0}
+.eyebrow{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--red);font-weight:600}
+h2{font-size:clamp(28px,5vw,40px);margin:6px 0 10px}
+.rule{width:60px;height:3px;background:var(--red);margin-bottom:24px}
+.hero{background:var(--beige)}
+.hero .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+@media(max-width:800px){.hero .wrap{grid-template-columns:1fr}}
+.hero h1{font-size:clamp(36px,7vw,60px);line-height:1.1}
+.hero h1 span{display:block;font-style:italic;font-weight:500;font-size:.5em}
+.photo{aspect-ratio:4/5;max-width:360px;width:100%;margin:auto;border:3px dashed var(--red);border-radius:24px;background:var(--sand);display:grid;place-items:center;text-align:center;font-weight:600;color:#7a6a55;overflow:hidden}
+.btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-weight:600;padding:14px 26px;border-radius:14px;border:0;cursor:pointer;font:600 16px Poppins,sans-serif}
+.btn:hover{background:var(--red-d)}
+.btn.wa{background:#1f9d55}.btn.wa:hover{background:#17803f}
+.date{display:inline-block;background:var(--red);color:#fff;border-radius:14px;padding:10px 20px;margin:18px 0}
+.date small{display:block;font-size:11px;letter-spacing:.25em;text-transform:uppercase;opacity:.85}
+.date b{font-family:Lora,serif;font-size:22px}
+.stats{display:flex;gap:14px;flex-wrap:wrap;margin:20px 0}
+.stat{background:var(--red);color:#fff;border-radius:16px;padding:16px 24px;text-align:center;min-width:130px}
+.stat b{display:block;font-family:Lora,serif;font-size:38px;line-height:1.1}.stat span{font-size:13px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:8px}
+.fact{background:#fff;border-radius:16px;padding:18px;border-left:5px solid var(--red)}
+.fact b{color:var(--red-d);display:block}
+.quote{font-family:Lora,serif;font-size:clamp(22px,3.5vw,30px);font-weight:700;margin:28px 0 8px}
+.alt{background:var(--beige)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:#fff;border-radius:18px;padding:22px;box-shadow:0 2px 10px #4a3b3214}
+.alt .card{background:var(--cream)}
+.card h3{font-size:19px;color:var(--red-d);margin:10px 0 6px}.card p{margin:0;font-size:15px}
+.ico{width:48px;height:48px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-size:22px}
+.car{position:relative}
+.track{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:6px 2px 14px}
+.track::-webkit-scrollbar{display:none}
+.slide{flex:0 0 min(340px,82%);scroll-snap-align:center;background:var(--cream);border-radius:20px;padding:26px;min-height:250px;box-shadow:0 4px 16px #4a3b3220}
+.slide .ico{width:56px;height:56px;font-size:26px}
+.slide h3{font-size:22px;color:var(--red-d);margin:14px 0 8px}.slide p{margin:0}
+.ctrl{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:10px}
+.arrow{width:46px;height:46px;border-radius:50%;border:0;background:var(--red);color:#fff;font-size:22px;cursor:pointer}
+.arrow:hover{background:var(--red-d)}
+.dots{display:flex;gap:7px}.dot{width:10px;height:10px;border-radius:50%;border:0;padding:0;background:var(--sand);cursor:pointer}.dot.on{background:var(--red);width:26px;border-radius:6px}
+.contact{background:var(--red);color:#fff;text-align:center}
+.contact .eyebrow{color:#fff;opacity:.85}.contact .rule{background:#fff;margin:0 auto 24px}
+.contact p{max-width:560px;margin:0 auto 24px}
+footer{background:var(--brown);color:#e9dcc7;text-align:center;font-size:13px;padding:22px 20px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="brand"><div class="logo" id="logo">LOGO</div><span>Escola Menino Jesus</span></div>
+  <nav><a href="#quem">Quem sou</a><a href="#feitos">O que já fiz</a><a href="#propostas">Minhas propostas</a><a href="#contato">Fale comigo</a></nav>
+</div></header>
+
+<section class="hero"><div class="wrap">
+  <div>
+    <div class="eyebrow">Candidata à direção</div>
+    <h1>Adalvani <span>Pinheiro de Carvalho</span></h1>
+    <p class="quote">“Por amar e acreditar na educação, peço o seu voto.”</p>
+    <p>Uma gestão democrática, comprometida, inclusiva e participativa, pautada no respeito ao outro e no diálogo.</p>
+    <div class="date"><small>Dia da votação</small><b>30 de novembro de 2026</b></div><br>
+    <a class="btn" href="#propostas">Conheça as propostas</a>
+  </div>
+  <div class="photo" id="photo">FOTO DA<br>CANDIDATA</div>
+</div></section>
+
+<section id="quem"><div class="wrap">
+  <div class="eyebrow">Quem sou</div><h2>Minha trajetória</h2><div class="rule"></div>
+  <p style="font-family:Lora,serif;font-style:italic;font-size:20px;margin-top:0">Acreana, casada, mãe de dois filhos e avó de uma netinha.</p>
+  <div class="stats">
+    <div class="stat"><b>3</b><span>mandatos como gestora</span></div>
+    <div class="stat"><b>2010</b><span>na Escola Menino Jesus</span></div>
+  </div>
+  <div class="facts">
+    <div class="fact"><b>Hoje</b>Coordenadora pedagógica da escola</div>
+    <div class="fact"><b>Formação</b>Pedagogia e Filosofia/Teologia</div>
+    <div class="fact"><b>Pós-graduação</b>Psicopedagogia e Gestão Escolar (UFAC)</div>
+    <div class="fact"><b>Experiência</b>Educação Infantil, Ensino Fundamental, EJA e Ensino Superior</div>
+  </div>
+  <p style="margin-top:24px"><i>Sala de aula, coordenação pedagógica e gestão: já passei por todas na Menino Jesus.</i></p>
+  <p>Meu compromisso é manter a tradição da Menino Jesus como escola de referência na Educação Infantil do Acre, potencializando o que já temos de melhor.</p>
+</div></section>
+
+<section id="feitos" class="alt"><div class="wrap">
+  <div class="eyebrow">Realizações</div><h2>O que já fiz</h2><div class="rule"></div>
+  <div class="grid" id="feitosGrid"></div>
+</div></section>
+
+<section id="propostas"><div class="wrap">
+  <div class="eyebrow">Propostas 2026</div><h2>O que vamos fazer juntos</h2><div class="rule"></div>
+  <div class="car">
+    <div class="track" id="track"></div>
+    <div class="ctrl"><button class="arrow" id="prev" aria-label="Anterior">‹</button><div class="dots" id="dots"></div><button class="arrow" id="next" aria-label="Próxima">›</button></div>
+  </div>
+</div></section>
+
+<section id="contato" class="contact"><div class="wrap">
+  <div class="eyebrow">Fale comigo</div><h2>Sua ideia constrói a nossa escola</h2><div class="rule"></div>
+  <p>Tem uma sugestão, uma ideia ou quer conversar sobre a nova gestão? Me mande uma mensagem direto no WhatsApp. Vou adorar ouvir você.</p>
+  <a class="btn wa" id="wa" target="_blank" rel="noopener">💬 Conversar no WhatsApp</a>
+</div></section>
+
+<footer>Adalvani Pinheiro de Carvalho · Candidata à Direção · Escola de Educação Infantil Menino Jesus · Eleição: 30 de novembro de 2026</footer>
+
+<script>
+/* ====== CONFIGURE AQUI ====== */
+var WHATSAPP = "55689XXXXXXXX"; // DDI 55 + DDD + número, só dígitos. Ex.: 5568999999999
+var FOTO = "foto.jpg";          // arquivo da foto da candidata (na mesma pasta)
+var LOGO = "logo.png";          // arquivo da logo da escola
+/* ============================ */
+var feitos=[
+["🏅","Primeira escola credenciada","Credenciei a escola no Conselho Municipal de Educação, a primeira do município."],
+["🔨","Reformas e novas salas","Duas reformas e a ampliação com a brinquedoteca e a sala de tecnologia."],
+["📱","Equipamentos","Parcerias e emenda parlamentar: tablets, data show, som e mais."],
+["📶","Internet ampliada","Coordenação, biblioteca/sala memorial, sala do AEE e sala de tecnologia."],
+["📖","Novo currículo","Currículo único do Acre em 2019 e a Proposta Pedagógica da escola, a primeira do município."],
+["🤝","Mais inclusão","Ações com a Seme, palestras e reuniões com as famílias sobre o tema."],
+["⭐","Boa gestão reconhecida","Abono financeiro pela boa administração dos recursos do PDDE."]];
+var props=[
+["🧒","Infâncias respeitadas","Defender o direito de toda criança viver sua infância, respeitando sua cultura: brasileira, indígena ou estrangeira."],
+["🏅","Recredenciamento","Trabalhar com a Seme pelo recredenciamento da escola no Conselho Municipal de Educação."],
+["💰","Mais recursos","Buscar parcerias e emendas parlamentares para ampliar os recursos da escola."],
+["📚","Currículo e Proposta Pedagógica","Desenvolver o currículo da educação infantil por meio da Proposta Pedagógica da escola."],
+["🏛️","Nossa história","Fortalecer a Educação Patrimonial e criar um site com a memória da escola, Patrimônio Histórico do Acre."],
+["🌿","Meio ambiente","Ações ambientais no Projeto Político Pedagógico e na rotina da escola."],
+["♿","Atendimento especializado (AEE)","Mais profissionais capacitados junto à Seme e parcerias para atender crianças que ainda não recebem."],
+["💗","Saúde mental","Formações, palestras e apoio institucional para servidores e professores."],
+["🤝","Gestão eficiente","Garantir a continuidade de uma gestão eficiente."]];
+function card(a,c){return '<div class="'+c+'"><div class="ico">'+a[0]+'</div><h3>'+a[1]+'</h3><p>'+a[2]+'</p></div>'}
+document.getElementById('feitosGrid').innerHTML=feitos.map(function(a){return card(a,'card')}).join('');
+var track=document.getElementById('track'),dots=document.getElementById('dots');
+track.innerHTML=props.map(function(a){return card(a,'slide')}).join('');
+var slides=[].slice.call(track.children);
+slides.forEach(function(_,i){var d=document.createElement('button');d.className='dot';d.setAttribute('aria-label','Proposta '+(i+1));d.onclick=function(){go(i)};dots.appendChild(d)});
+function cur(){var c=track.scrollLeft+track.clientWidth/2,b=0,m=1e9;slides.forEach(function(s,i){var d=Math.abs(s.offsetLeft+s.offsetWidth/2-c);if(d<m){m=d;b=i}});return b}
+function go(i){i=(i+slides.length)%slides.length;var s=slides[i];track.scrollTo({left:s.offsetLeft-(track.clientWidth-s.offsetWidth)/2,behavior:'smooth'})}
+function mark(){var c=cur();[].forEach.call(dots.children,function(d,i){d.classList.toggle('on',i===c)})}
+track.addEventListener('scroll',mark);mark();
+document.getElementById('prev').onclick=function(){go(cur()-1)};
+document.getElementById('next').onclick=function(){go(cur()+1)};
+var msg="Olá, Adalvani! Vim pelo site da sua campanha e gostaria de deixar uma ideia/sugestão para a nova gestão da Escola Menino Jesus:";
+document.getElementById('wa').href="https://wa.me/"+WHATSAPP+"?text="+encodeURIComponent(msg);
+function img(id,src,alt){var e=document.getElementById(id),i=new Image();i.onload=function(){e.innerHTML='';e.style.border='0';e.appendChild(i)};i.alt=alt;i.src=src}
+img('photo',FOTO,'Foto de Adalvani Pinheiro de Carvalho');img('logo',LOGO,'Logo da Escola Menino Jesus');
+</script>
+</body>
+</html>
